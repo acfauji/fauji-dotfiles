@@ -1,0 +1,18 @@
+# --- Fauji shell extras ---
+alias ll='ls -lah'
+alias la='ls -A'
+alias update='sudo apt update && sudo apt upgrade -y'
+alias ports='ss -tlnp'
+alias sec='python3 ~/security-toolkit/recon/'
+alias ip='curl -s ifconfig.me'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add -A'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git log --oneline --graph -15'
+
+# Docker
+alias dps='docker ps'
+alias dlogs='docker logs -f'
