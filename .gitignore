@@ -1,0 +1,11 @@
+# Secrets / sensitive
+.env
+*.key
+*.pem
+id_rsa*
+# OS
+.DS_Store
+Thumbs.db
+# Editors
+*.swp
+*~
